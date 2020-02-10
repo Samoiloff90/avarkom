@@ -398,6 +398,14 @@ h1 {
   font-weight: 600;
 }
 
+.help__text_you {
+  margin: 0px 0px 16px 0px;
+}
+
+.help__text_we {
+  margin: 0px;
+}
+
 /* offer */
 
 .offer {
@@ -410,6 +418,7 @@ h1 {
   font-size: 24px;
   font-weight: 400;
   text-align: center;
+  margin-top: 0px;
 }
 
 .offer__title_name {
@@ -432,6 +441,8 @@ text-transform: uppercase;
   width: 341px;
   height: 40px;
   border: 1px solid #ddd;
+  font-size: 18px;
+  letter-spacing: -0.18px;
   padding: 12px 112px 14px 13px;
   outline: 0;
   margin-right: 19px;
