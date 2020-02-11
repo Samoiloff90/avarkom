@@ -34,7 +34,7 @@ strong {
 }
 
 h1 {
-  margin: 0;
+  margin: -8px 0px 3px 0px;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 36px;
   font-weight: bold;
@@ -84,6 +84,7 @@ h1 {
   font-weight: bold;
   color: #bb1d1f;
   letter-spacing: 1.8px;
+  margin-bottom: 9px;
   text-transform: uppercase;
 }
 
@@ -110,8 +111,16 @@ h1 {
   font-weight: 700;
   color: #000000;
   text-decoration: none;
-  border-bottom: 5px dashed #000000;
+  /* border-bottom: 5px dashed #000000; */
   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.header__contact-line {
+  color: #000000;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 47px;
+  font-weight: 800;
+  margin-top: -52px;
 }
 
 .header-content {
@@ -119,6 +128,10 @@ h1 {
   flex-direction: column;
   /* margin-bottom: 59px; */
   margin-bottom: -15px;
+}
+
+.header-content_strong {
+  font-weight: 600;
 }
 
 .header-content__text {
@@ -156,6 +169,7 @@ h1 {
   line-height: 0;
   top: 25px;
   left: 5px;
+  font-weight: 600;
 }
 
 .header__form_star-2:after {
@@ -166,6 +180,7 @@ h1 {
   line-height: 0;
   top: 105px;
   left: 5px;
+  font-weight: 600;
 }
 
 
@@ -185,6 +200,10 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   color: #000000;
   font-weight: 300;
+}
+
+.header__form_input:focus::placeholder {
+  color: transparent;
 }
 
 .header__form_button {
@@ -399,7 +418,8 @@ h1 {
 }
 
 .help__text_you {
-  margin: 0px 0px 16px 0px;
+  max-width: 650px ;
+  margin: 0px auto 16px auto;
 }
 
 .help__text_we {
@@ -591,6 +611,9 @@ text-transform: uppercase;
   .container {
     width: 90%;
   }
+  .header__contact-line {
+    display: none;
+  }
   .header__info {
     flex-wrap: wrap;
   }
@@ -615,6 +638,9 @@ text-transform: uppercase;
   .header__form_button {
     width: 100%;
   }
+  .help__title {
+    margin: auto;
+  }
   .help__title:after {
     display: none;
   }
@@ -623,6 +649,20 @@ text-transform: uppercase;
   img {
     max-width: 80%;
   }
-
+  .header__contact_text-strong {
+    font-size: 25px;
+  }
+  
+  .work__title, 
+  .advantages__title {
+    font-size: 25px;
+  }
+  .offer__form_input {
+    max-width: 80%;
+  }
+  .header__contact {
+    width: 90%;
+    margin: auto;
+  }
 }
   
