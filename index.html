@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="top">
     <div class="container">
       <div class="header__info">
         <div class="header__logo">
@@ -38,24 +38,21 @@
           <a href="tel:8(8422)99-33-66" class="header__contact_phone">
             8 (8422) 99 - 33 - 66
           </a>
-          <span class="header__contact-line">
-            _ _ _ _ _ _ _ _ _ _ _ _ _ _
-          </span>
         </div>
       </div>
       <div class="header-content">
-        <span class="header-content__text">
+        <p class="header-content__text">
           Попали в ДТП?
-        </span>
-        <div class="header-content__text">
+        </p>
+        <p class="header-content__text">
           <strong class="header-content_strong">Звоните!</strong>
           <a href="tel:8(8422)99-33-66" class="header__content_phone">
             8 (8422) 99 - 33 - 66
           </a>
-        </div>
-        <div class="header-content__text">
+        </p>
+        <p class="header-content__text">
           Или <strong class="header-content_strong"> закажите обратный звонок!</strong>
-        </div>
+        </p>
       </div>
       <form action="#" class="header__form">
         <label for="username" class="header__form_star"></label>
@@ -70,116 +67,141 @@
       </form>
     </div>
   </header>
-  <section class="work">
-    <div class="container">
-      <h2 class="work__title">
-        Наша работа
-      </h2>
-      <ul class="work-list">
-        <li class="work-list__item">
-          <div class="work-list__image work-image_1"></div>
-          <p class="work-list__text work-list__text-one">
-            Выезд на место <span class="red">ДТП</span>
-          </p>
-        </li>
-        <li class="work-list__item">
-          <div class="work-list__image work-image_2"></div>
-          <p class="work-list__text work-list__text-two">
-            Оценка <span class="red">ущерба</span>
-          </p>
-        </li>
-        <li class="work-list__item">
-          <div class="work-list__image work-image_3"></div>
-          <p class="work-list__text">
-             <span class="red">фотосъемка</span> места происшествия
-          </p>
-        </li>
-        <li class="work-list__item">
-          <div class="work-list__image work-image_4"></div>
-          <p class="work-list__text">
-            Составление пакета <span class="red">документов</span>
-          </p>
-        </li>
-        <li class="work-list__item">
-          <div class="work-list__image work-image_5"></div>
-          <p class="work-list__text">
-            <span class="red">Полное</span> сопровождение
-          </p>
-        </li>
-        <li class="work-list__item">
-          <div class="work-list__image work-image_6"></div>
-          <p class="work-list__text">
-            Услуги <span class="red">эвакуатора</span>
-          </p>
-        </li>
-      </ul>
-    </div>
-  </section>
-  <section class="advantages">
-    <div class="container">
-      <h2 class="advantages__title">
-        Наши преимущества
-      </h2>
-      <ul class="qualities">
-        <li class="qualities__item">
-          <i class="fa fa-check" aria-hidden="true"></i>
-          Доступные цены
-        </li>
-        <li class="qualities__item">
-          <i class="fa fa-check" aria-hidden="true"></i>
-          Оперативное прибытие на место ДТП
-        </li>
-        <li class="qualities__item">
-          <i class="fa fa-check" aria-hidden="true"></i>
-          Быстрое и грамотное оформление документов
-        </li>
-        <li class="qualities__item">
-          <i class="fa fa-check" aria-hidden="true"></i>
-          Круглосуточная поддержка и обратная связь
-        </li>
-      </ul>
-    </div>
-  </section>
-  <section class="advice">
-    <div class="container">
-      <h3 class="advice__title">
-        Что делать, если вы попали в ДТП?<br>Как выйти из ситуации, сохранив все свои права?
-      </h3>
-      <div class="help">
-        <em class="help__title">
-          Не удивляйтесь, если вы позвоните в ГАИ,<br>а вам откажут в выезде - теперь в Ульяновске это норма, при мелких ДТП!
-        </em>
-        <div class="help__text">
-          <p class="help__text_you">
-            Вам достаточно просто позвонить профессионалам, и к вам оперативно приедет аварийный комиссар.
-          </p>
-          <p class="help__text_we">
-            Мы решим ваши проблемы на месте: составим все необходимые документы, расскажем, что делать после ДТП и поддержим вас
-            на всех остальных этапах.
-          </p>
+  <main class="main">
+    <section class="work">
+      <div class="container">
+        <h2 class="work__title">
+          Наша работа
+        </h2>
+        <ul class="work-list">
+          <!-- 1 -->
+          <li class="work-list__item">
+            <div class="work-list__image">
+              <img src="img/section_2/Layer_1.png" class="work-list__image work-image_1" alt="">
+            </div>
+            <p class="work-list__text work-list__text-one">
+              Выезд на место <span class="red">ДТП</span>
+            </p>
+          </li>
+          <!-- 2 -->
+          <li class="work-list__item">
+            <div class="work-list__image work-image_2">
+              <img src="img/section_2/Layer_2.png" class="work-list__image work-image_2" alt="">
+            </div>
+            <p class="work-list__text work-list__text-two">
+              Оценка <span class="red">ущерба</span>
+            </p>
+          </li>
+          <!-- 3 -->
+          <li class="work-list__item">
+            <div class="work-list__image work-image_3">
+              <img src="img/section_2/Layer_3.png" class="work-list__image work-image_3" alt="">
+            </div>
+            <p class="work-list__text">
+              <span class="red">фотосъемка</span> места происшествия
+            </p>
+          </li>
+          <!-- 4 -->
+          <li class="work-list__item">
+            <div class="work-list__image work-image_4">
+              <img src="img/section_2/Layer_4.png" class="work-list__image work-image_4" alt="">
+            </div>
+            <p class="work-list__text">
+              Составление пакета <span class="red">документов</span>
+            </p>
+          </li>
+          <!-- 5 -->
+          <li class="work-list__item">
+            <div class="work-list__image work-image_5">
+              <img src="img/section_2/Layer_5.png" class="work-list__image work-image_5" alt="">
+            </div>
+            <p class="work-list__text">
+              <span class="red">Полное</span> сопровождение
+            </p>
+          </li>
+          <!-- 6 -->
+          <li class="work-list__item">
+            <div class="work-list__image work-image_6">
+              <img src="img/section_2/Layer_6.png" class="work-list__image work-image_6" alt="">
+            </div>
+            <p class="work-list__text">
+              Услуги <span class="red">эвакуатора</span>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="container">
+        <h2 class="advantages__title">
+          Наши преимущества
+        </h2>
+        <div class="qualities-wrap">
+          <ul class="qualities">
+            <li class="qualities__item">
+              Доступные цены
+            </li>
+            <li class="qualities__item">
+              Оперативное прибытие на место ДТП
+            </li>
+            <li class="qualities__item">
+              Быстрое и грамотное оформление документов
+            </li>
+            <li class="qualities__item">
+              Круглосуточная поддержка и обратная связь
+            </li>
+          </ul>
+        </div>  
+      </div>
+    </section>
+    <section class="advice">
+      <div class="container">
+        <h3 class="advice__title">
+          Что делать, если вы попали в ДТП?<br>Как выйти из ситуации, сохранив все свои права?
+        </h3>
+        <div class="help">
+          <em class="help__title">
+            Не удивляйтесь, если вы позвоните в ГАИ,<br>а вам откажут в выезде - теперь в Ульяновске это норма, при мелких
+            ДТП!
+          </em>
+          <div class="help__line"></div>
+          <div class="help__text">
+            <p class="help__text_you">
+              Вам достаточно просто позвонить профессионалам, и к вам оперативно приедет аварийный комиссар.
+            </p>
+            <p class="help__text_we">
+              Мы решим ваши проблемы на месте: составим все необходимые документы, расскажем, что делать после ДТП и
+              поддержим вас
+              на всех остальных этапах.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="offer">
-    <div class="container">
-      <h4 class="offer__title">
-        <span class="offer__title_name">Аварком73</span> круглосуточно решает ваши проблемы <a href="tel:8(8422)99-33-66" class="offer__title_phone">8 (8422) 99-33-66</a>
-      </h4>
-      <form action="#" class="offer__form">
-        <input type="text" name="username" required minlength="2" maxlength="20" class="offer__form_input" placeholder="Имя*">
-        <input type="tel" name="phone" required class="offer__form_input" placeholder="Мобильный телефон*">
-        <button class="offer__form_button btn">
-          Перезвоните мне
-        </button>
-      </form>
-    </div>
-  </section>
+    </section>
+    <section class="offer">
+      <div class="container">
+        <h4 class="offer__title">
+          <span class="offer__title_name">Аварком73</span> круглосуточно решает ваши проблемы <a href="tel:8(8422)99-33-66"
+            class="offer__title_phone">8 (8422) 99-33-66</a>
+        </h4>
+        <form action="#" class="offer__form">
+          <input type="text" name="username" required minlength="2" maxlength="20" class="offer__form_input"
+            placeholder="Имя*">
+          <input type="tel" name="phone" required class="offer__form_input" placeholder="Мобильный телефон*">
+          <button class="offer__form_button btn">
+            Перезвоните мне
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
   <footer class="footer">
     <div class="container">
       <div class="footer__wrap">
         <div class="footer__info">
-          <img src="img/footer/logo_Avark.png" alt="Logo Avarkom" class="footer__info_logo">
+          <a href="#top">
+            <img src="img/footer/logo_Avark.png" alt="Logo Avarkom" class="footer__info_logo">
+          </a>
           <a href="tel:8(8422)99-33-66" class="footer__info_phone">8 (8422) 99-33-66</a>
           <p class="footer__info_text">
             Вызов аварийных комиссаров круглосуточно
